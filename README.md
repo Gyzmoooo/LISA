@@ -6,9 +6,9 @@ LISA was born from the idea of enabling deaf museum visitors to easily enjoy the
 
 
 Hardware requirements:
-• Raspberry pi 4;
-• SD card;
-• Coral edge TPU usb accelerator;
+    • Raspberry pi 4;
+    • SD card;
+    • Coral edge TPU usb accelerator;
 • Raspberry Pi camera (https://www.az-delivery.de/it/products/raspberrykamerav1-3?variant=27479410505);
 • Display LCD 3.5" (https://www.waveshare.com/3.5inch-rpi-lcd-b.htm);
 • Power Bank 3A;
