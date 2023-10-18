@@ -23,4 +23,4 @@ To set up LISA, follow these steps:
     • Connect the Coral accelerator;
     • Install all the necessary dependencies following the "Guides/dependencies-guide.pdf";
     • Follow the steps in the "Guides/compatibility-display-cam-guide.pdf" to make the display and camera work simultaneously;
-    • If you want LISA to run at startup, follow the "Guides/run-at-start-guide.pdf", otherwise, manually run "Detector/lisa.py" manually;
+    • If you want LISA to run at startup, follow the "Guides/run-at-start-guide.pdf", otherwise manually run "Detector/lisa.py".
