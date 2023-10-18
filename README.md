@@ -23,4 +23,4 @@ In order to make LISA follow these steps:
     • Connect the Coral;
     • Install all the necessary dependencies following the "Guides/dependencies-guide.pdf";
     • Follow the steps in the "Guides/compatibility-display-cam-guide.pdf" to make the display and camera work simultaneously;
-    • If you want to run it at the start follow the "Guides/run-at-start-guide.pdf", else just run the "/lisa.py" manually;
+    • If you want to run it at the start follow the "Guides/run-at-start-guide.pdf", else just run the "Detector/lisa.py" manually;
