@@ -7,20 +7,20 @@ LISA was born from the idea of enabling deaf museum visitors to easily enjoy the
 
 Hardware requirements:
 
-    • Raspberry pi 4;
+    • Raspberry Pi 4;
     • SD card;
-    • Coral edge TPU usb accelerator;
-    • Raspberry Pi camera (https://www.az-delivery.de/it/products/raspberrykamerav1-3?variant=27479410505);
+    • Coral Edge TPU USB accelerator;
+    • Raspberry Pi Camera (https://www.az-delivery.de/it/products/raspberrykamerav1-3?variant=27479410505);
     • Display LCD 3.5" (https://www.waveshare.com/3.5inch-rpi-lcd-b.htm);
     • Power Bank 3A;
 
 In order to make LISA follow these steps:
 
-    • Download the whole LISA folder
-    • Realize the pcb following the guide;
+    • Download the whole LISA folder;
+    • Create the PCB following the "Guides/homemade-pcb-guide.pdf";
     • Connect both the Pi Camera and the PCB on the Raspberry PI while it is powered off;
-    • Connect the Button hub with jumper wires;
+    • Connect the Button Hub with jumper wires;
     • Connect the Coral;
-    • Install al the necessary dependencies following the guide;
-    • Follow the steps in the guide to make the display and camera work simultaneously;
-    • If you want to run it at the start follow the guide, else just run the lisa.py manually;
+    • Install all the necessary dependencies following the "Guides/dependencies-guide.pdf";
+    • Follow the steps in the "Guides/compatibility-display-cam-guide.pdf" to make the display and camera work simultaneously;
+    • If you want to run it at the start follow the "Guides/run-at-start-guide.pdf", else just run the "/lisa.py" manually;
