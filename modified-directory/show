@@ -1,0 +1,5 @@
+sudo cp ./boot/config-35.txt /boot/config.txt
+sudo cp -rf ./etc/rc.local-gpio /etc/rc.local
+sudo cp ./waveshare35a-overlay.dtb /boot/overlays/waveshare35a.dtbo
+sudo cp ./waveshare35a-overlay.dtb /boot/overlays/
+sudo poweroff

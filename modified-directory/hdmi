@@ -1,0 +1,7 @@
+sudo rm -r /usr/share/X11/xorg.conf.d
+sudo cp -r ./xorg.conf.d /usr/share/X11/
+sudo cp ./boot/config-nomal.txt /boot/config.txt
+sudo cp -rf ./etc/rc.local /etc/rc.local
+sudo rm /boot/overlays/waveshare35a.dtbo
+sudo rm /boot/overlays/waveshare35a-overlay.dtb
+sudo poweroff
