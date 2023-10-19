@@ -4,7 +4,6 @@ from time import sleep
 import vlc
 from picamera import PiCamera
 import RPi.GPIO as GPIO
-import object_detector
 
 class LISA():
     def __init__(self):
