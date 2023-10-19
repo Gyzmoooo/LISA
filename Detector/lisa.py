@@ -16,14 +16,12 @@ class LISA():
             GPIO.setup(GPIOlist[i], GPIO.IN, pull_up_down = GPIO.PUD_UP )
         start_state_qr = GPIO.input(self.qr_button)
         current_state_qr = GPIO.input(self.qr_button)
-        start_state_model = GPIO.input(self.model_button)
-        current_state_model = GPIO.input(self.model_button)
 
         # PiCamera setup
         self.cam = PiCamera()
         self.cam.start_preview()
 
-        while start_state_qr == current_state_qr and start_state_model == current_state_model:
+        while start_state_qr == current_state_qr:
             sleep(0.01)
             current_state_qr = GPIO.input(self.qr_button)
             current_state_model = GPIO.input(self.model_button)
@@ -31,11 +29,6 @@ class LISA():
                 sleep(0.7)
                 self.capture()
                 self.play(self.decode())
-            if start_state_model != current_state_model:
-                sleep(0.7)
-                self.capture()
-                object_detector.detect()
-                self.play()
 
     def capture(self):
         self.cam.capture('image.png')
