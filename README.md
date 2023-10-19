@@ -17,10 +17,10 @@ Hardware Requirements:
 To set up LISA, follow these steps:
 
     • Download the entire LISA folder;
-    • Create the PCB following the "Guides/homemade-pcb-guide.pdf";
+    • Create the PCB following the "Guides/homemade-pcb-guide.md";
     • Connect both the Pi Camera and the PCB to the Raspberry Pi while it is powered off;
     • Connect the Button Hub with jumper wires;
     • Connect the Coral accelerator;
-    • Install all the necessary dependencies following the "Guides/dependencies-guide.pdf";
-    • Follow the steps in the "Guides/compatibility-display-cam-guide.pdf" to make the display and camera work simultaneously;
-    • If you want LISA to run at startup, follow the "Guides/run-at-start-guide.pdf", otherwise manually run "Detector/lisa.py".
+    • Install all the necessary dependencies following the "Guides/dependencies-guide.md";
+    • Follow the steps in the "Guides/compatibility-display-cam-guide.md" to make the display and camera work simultaneously;
+    • If you want LISA to run at startup, follow the "Guides/run-at-start-guide.md", otherwise manually run "src/main.py".
