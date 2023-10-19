@@ -8,7 +8,7 @@ follow these steps:
 the following commands:
 - chmod 755 <fileName> / chmod u+x <fileName>
 4. Execute 'LCD-show' by running the command:
-- ./LCD-show
+- ./LCD35-show
 5. Reboot your Raspberry Pi; you should now see your desktop on the display;
 6. Return to the original directory and execute 'LCD-hdmi' using the command:
 - ./LCD-hdmi
