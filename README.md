@@ -22,5 +22,5 @@ To set up LISA, follow these steps:
     • Connect the Button Hub with jumper wires;
     • Connect the Coral accelerator;
     • Install all the necessary dependencies following the "Guides/dependencies-guide.md";
-    • Follow the steps in the "Guides/compatibility-display-cam-guide.md" to make the display and camera work simultaneously;
+    • Follow the steps in the "Guides/compatibility-guide.md" to make the display and camera work simultaneously;
     • If you want LISA to run at startup, follow the "Guides/run-at-start-guide.md", otherwise manually run "src/main.py".
